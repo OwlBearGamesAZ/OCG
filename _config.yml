@@ -13,8 +13,6 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-header:
-  image: /assets/images/BIG BANNER NO NAME@3x.jpg
 
 # Site Settings
 locale                   : "en-US"
@@ -313,7 +311,7 @@ compress_html:
 
 
 # Defaults
-defaults:
+defaults: 
   # _posts
   - scope:
       path: ""
@@ -325,3 +323,6 @@ defaults:
       comments: # true
       share: true
       related: true
+      header:
+        image: /assets/images/BIG BANNER NO NAME@3x.jpg
+
