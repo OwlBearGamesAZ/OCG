@@ -32,7 +32,7 @@ breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
-copyright_url            : # "copyright" URL, defaults to site.url
+copyright_url            : "https://www.facebook.com/profile.php?id=61568862928904" # "copyright" URL, defaults to site.url
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -147,9 +147,9 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/profile.php?id=61568862928904"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/GEyaE5jaU6"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
