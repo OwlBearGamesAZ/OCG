@@ -290,13 +290,13 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-splash
+    tag: archive-splash 
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
