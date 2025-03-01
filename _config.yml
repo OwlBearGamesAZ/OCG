@@ -318,8 +318,11 @@ defaults:
       path: ""
       type: posts
     values:
-      classes: wide
       layout: splash
+      classes:
+        - landing
+        - dark-theme
+        - wide
       author_profile: false
       read_time: true
       comments: # true
